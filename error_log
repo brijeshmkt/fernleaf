@@ -1,0 +1,2 @@
+[31-Mar-2016 02:50:58 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/expert/public_html/fernleaf/wp-content/themes/fernleaf/page-getcity.php on line 8
+[31-Mar-2016 06:54:34 UTC] PHP Notice:  Undefined variable: boxed_style in /home/expert/public_html/fernleaf/wp-content/themes/fernleaf/header.php on line 91

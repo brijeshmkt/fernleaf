@@ -1,0 +1,63 @@
+/* CSS made by us */
+
+/* Horizontal view - tablet/ipad 1024 */
+@media (min-width: 991px) and (max-width: 1024px) {
+    .hotel-details-box { width: 55%; }
+    #thumbnail-slider { height: 426px!important; }
+    #thumbnail-slider div.inner { padding: 0 5px!important; }
+    #thumbnail-slider ul li { width: 135px!important; }
+}
+
+/* Vertical view - tablet/ipad 768 */
+@media (min-width: 768px) and (max-width: 990px) {
+    .cost-booking { width: 21%; }
+    .picture-box { width: 150px; }
+    .hotel-details-box { width: 47%; }
+    #thumbnail-slider { height: 318px!important; }
+    #thumbnail-slider div.inner { padding: 0 5px!important; }
+    #thumbnail-slider ul li { width: 95px!important; }
+    .filter-box label { margin-bottom: 10px; }
+}
+
+/* Menu for all devices */
+@media (max-width: 1024px) {
+}
+
+/* Horizontal/Vertical view - mobile */
+@media (max-width: 767px) {
+    .resp-vtabs { padding: 0; background: none; }
+    .location-thumb { width: 100%; float: none; margin: 10px 0 20px; }
+    .package-content { width: 100%; float: none; margin: 0 0 20px; }
+    .cost-booking { width: 100%; float: none; margin: 0; text-align: left; }
+    .package-row label { width: 40%; margin-right: 5%; }
+    .package-row .label-value { width: 55%; }
+    .costing-box { text-align: left; }
+    .picture-box { width: 100%; float: none; }
+    .hotel-details-box { width: 100%; float: none; border-right: 0 none; border-top: 1px solid #c4c4c4; border-bottom: 1px solid #c4c4c4; min-height: 10px; }
+    .pricing-box { width: 100%; float: none; }
+    .book-now-btn span.voucher { right: 65px; }
+    .discount-bar label { display: block; margin: 0 0 10px; }
+    .footer-wrapper .footer-copy a { text-align: center; }
+    
+    .hotel-nm { font-size: 20px; margin-bottom: 15px; }
+    .btn-group { width: 100%; float: none; text-align: center; }
+    #ninja-slider { width: 100%!important; float: none!important; }
+    #thumbnail-slider { width: 100%!important; float: none!important; height: 170px!important; }
+    #thumbnail-slider div.inner ul { left: 50%!important; margin-left: -70px!important; }
+    .rates-availability .hotel-sub-title { font-size: 18px; }
+    .best-price-box { position: relative; text-align: left; margin: 10px 0 0; }
+    .change-checkin-dates label { display: block; }
+    .change-checkin-dates .calendar-icon { display: block; margin-right: 0; margin-bottom: 10px; }
+    .change-checkin-dates .calendar-icon input { margin: 0; width: 100%; }
+    .change-checkin-dates select { display: block; margin-right: 0; margin-bottom: 10px; }
+    .filter-box label { display: block; margin-right: 0; margin-bottom: 5px; }
+    .currency-converter label { display: block; }
+    .currency-converter select { display: block; margin: 0 0 10px 0; }
+    .booking-table { overflow: auto; }
+    .common-box .common-box-content ul li { width: 100%; display: block; }
+    .common-box .common-box-content { text-align: justify; }
+}
+
+/* Conflicting css */
+@media (min-width: 400px) and (max-width: 767px) {
+}
