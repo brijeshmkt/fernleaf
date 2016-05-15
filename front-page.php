@@ -680,7 +680,7 @@ foreach ($rows as $row) {
         //window.location = '/fernleaf/?page_id=1052&' + data;
         //
         if(!$("#search-tours-form").valid()) return false;  
-            window.location = '/fernleaf/?page_id=1119&' + data;
+            window.location = 'fernleaf/api-tour-packages/?' + data;
     });
 
 })(jQuery);
