@@ -4,6 +4,10 @@ Welcome to tours and travels list page
 
 <a class="gdl-button large" href="/fernleaf/payment/" class="button">Book</a>
 
+
+All design will go above this.
+
+
 <hr>
 
 <h1>Below data to be integrated with the design.  Below data means that api is working fine :-)</h1>
