@@ -659,7 +659,7 @@ foreach ($rows as $row) {
         //window.location = '/fernleaf/?page_id=1052&' + data;
         //
         if(!$("#search-flight-form").valid()) return false;  
-            window.location = '/fernleaf/?page_id=1111&' + data;
+            window.location = '/fernleaf/api-flight/?' + data;
     });
 
     //  $("#multistop").on('change', function(event){
